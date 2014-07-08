@@ -97,7 +97,7 @@ public class StateMachine extends Thread
                 case "INIT":
                     Main.log.info("INIT");
                     break;
-                case "WAIT_START":
+                case "WAIT_START":  //Kommentar für Wait Start
                     Main.log.info("WAIT_START");
                     break;
                 case "RUNNING":
